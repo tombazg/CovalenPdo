@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.navbar {
+    background-color: #000;
+    padding: 15px;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-link {
+    color: #fff;
+}
+.search-bar {
+    width: 300px;
+}
+.container {
+    margin-top: 20px;
+}
+.movie-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+.movie-card img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.movie-info {
+    padding: 10px;
+    flex: 1;
+}
+.imdb-rating {
+    color: gold;
+    font-weight: bold;
+}
+.form-inline .form-control {
+    margin-right: 10px;
+}
+.row .col-md-6 {
+    padding: 10px;
+}
+.showtime {
+    color: #fff;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px;
+}
+.movie-row-divider {
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
